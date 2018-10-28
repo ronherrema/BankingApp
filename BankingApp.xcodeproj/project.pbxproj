@@ -12,6 +12,7 @@
 		73A1042C21861D1B0099503A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73A1042A21861D1B0099503A /* Main.storyboard */; };
 		73A1042E21861D200099503A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73A1042D21861D200099503A /* Assets.xcassets */; };
 		73A1043121861D200099503A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73A1042F21861D200099503A /* LaunchScreen.storyboard */; };
+		73A1043921861D5A0099503A /* BankAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A1043821861D5A0099503A /* BankAccount.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		73A1042D21861D200099503A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		73A1043021861D200099503A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		73A1043221861D200099503A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		73A1043821861D5A0099503A /* BankAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankAccount.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				73A1042621861D1B0099503A /* AppDelegate.swift */,
 				73A1042821861D1B0099503A /* ViewController.swift */,
+				73A1043821861D5A0099503A /* BankAccount.swift */,
 				73A1042A21861D1B0099503A /* Main.storyboard */,
 				73A1042D21861D200099503A /* Assets.xcassets */,
 				73A1042F21861D200099503A /* LaunchScreen.storyboard */,
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				73A1042921861D1B0099503A /* ViewController.swift in Sources */,
+				73A1043921861D5A0099503A /* BankAccount.swift in Sources */,
 				73A1042721861D1B0099503A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -285,6 +289,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8M6S76VG9E;
 				INFOPLIST_FILE = BankingApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -292,7 +297,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = net.ronherrema.BankingApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -303,6 +308,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8M6S76VG9E;
 				INFOPLIST_FILE = BankingApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -310,7 +316,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = net.ronherrema.BankingApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
